@@ -1,0 +1,28 @@
+{
+  "name": "salty-pumpkin-frontend",
+  "version": "2.0.0",
+  "description": "Salty Pumpkin storefront – React SPA",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint src/**/*.{js,jsx}"
+  },
+  "dependencies": {
+    "firebase": "^12.15.0",
+    "react": "^19.2.7",
+    "react-dom": "^19.2.7",
+    "react-router-dom": "^7.10.1"
+  },
+  "devDependencies": {
+    "@types/react": "^19.0.10",
+    "@types/react-dom": "^19.0.4",
+    "@vitejs/plugin-react": "^5.2.0",
+    "eslint": "^9.39.1",
+    "eslint-plugin-react-hooks": "^7.0.1",
+    "globals": "^16.5.0",
+    "vite": "^7.2.7"
+  }
+}
